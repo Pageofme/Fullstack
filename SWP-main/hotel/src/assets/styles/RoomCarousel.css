@@ -1,0 +1,84 @@
+.carousel-container {
+    position: relative;
+    margin-bottom: 2.5rem;
+  }
+  
+  .carousel-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .carousel-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 0 2.5rem;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .room-card {
+    min-width: 250px;
+    background-color: white;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .room-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .room-image {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+  }
+  
+  .room-info {
+    padding: 0.75rem;
+  }
+  
+  .room-title {
+    font-weight: 600;
+    color: black;
+    
+  }
+  
+  .room-price,
+  .room-rating {
+    font-size: 0.875rem;
+    color: #555;
+  }
+  
+  .room-rating {
+    color: #ca8a04; /* yellow-600 */
+  }
+  
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 9999px;
+    padding: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    z-index: 10;
+  }
+  
+  .nav-left {
+    left: 0.5rem;
+  }
+  
+  .nav-right {
+    right: 0.5rem;
+  }
+  
